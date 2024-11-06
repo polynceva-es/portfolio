@@ -2,6 +2,6 @@
     display: grid;
     gap: 20px;
     grid-template-rows: repeat(2, auto);
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: 288px auto;
     grid-template-areas: "header header" "about nav" ;
 }

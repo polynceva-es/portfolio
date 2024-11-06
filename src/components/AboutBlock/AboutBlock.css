@@ -1,3 +1,4 @@
 .about {
     grid-area: about;
+    max-width: 288px;
 }

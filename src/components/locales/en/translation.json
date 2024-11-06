@@ -2,10 +2,14 @@
 "LanguageEng": "English",
 "LanguageRu": "Russian",
 
+"MyName": "Ekaterina Polyntseva",
+"MyProfession": "Frontend Developer",
+"MyLocation": "Russian, Moscow",
+
 "NavigationHomePage": "Homepage",
 "NavigationAbout": "About me",
 "NavigationProjects": "Projects",
-"NavigationConnection": "Connection",
+"NavigationConnection": "Contacts",
 
 "GreetingCardTitle": "Greeting Card",
 "GreetingCardAbout": "Application for generating unique greeting cards",
