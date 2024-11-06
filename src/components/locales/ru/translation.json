@@ -1,7 +1,11 @@
 {
-"Title": " Здесь могло бы быть мое портфолио, но у меня всегда находятся другие более важные дела :)",
 "LanguageEng": "Английский",
 "LanguageRu": "Русский",
+
+"NavigationHomePage": "Главная",
+"NavigationAbout": "Обо мне",
+"NavigationProjects": "Проекты",
+"NavigationConnection": "Контакты",
 
 "GreetingCardTitle": "Поздравительные открытки",
 "GreetingCardAbout": "Приложение для генерации уникальных поздравительных открыток",

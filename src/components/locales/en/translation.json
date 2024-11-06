@@ -1,7 +1,11 @@
 {
-"Title" : "My portfolio could be here, but I always have other more important things to do :)",
 "LanguageEng": "English",
 "LanguageRu": "Russian",
+
+"NavigationHomePage": "Homepage",
+"NavigationAbout": "About me",
+"NavigationProjects": "Projects",
+"NavigationConnection": "Connection",
 
 "GreetingCardTitle": "Greeting Card",
 "GreetingCardAbout": "Application for generating unique greeting cards",
