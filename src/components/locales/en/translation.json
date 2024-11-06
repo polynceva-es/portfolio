@@ -1,0 +1,23 @@
+{
+"Title" : "My portfolio could be here, but I always have other more important things to do :)",
+"LanguageEng": "English",
+"LanguageRu": "Russian",
+
+"GreetingCardTitle": "Greeting Card",
+"GreetingCardAbout": "Application for generating unique greeting cards",
+
+"LandingChessTitle": "Chess club page",
+"LandingChessAbout": "Landing for Chess club",
+
+"LavkaTitle": "Grocery cart",
+"LavkaAbout": "Drag and Drop technology implemented",
+
+"TestProjectTitle": "Social network",
+"TestProjectAbout": "Test project on Next.JS",
+
+"ShiftersTitle": "Shifters",
+"ShiftersAbout": "The goal of the game is to find all pairs of identical pictures",
+
+"MoviesExplorerTitle": "Final project of the course Web developer Yandex Practicum",
+"MoviesExplorerAbout": "Portfolio website with online cinema for registered users"
+}
