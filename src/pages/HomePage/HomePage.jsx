@@ -7,7 +7,7 @@ export const HomePage = () => {
   return (
     <div className="homePage">
       <Header />
-      <AboutBlock/>
+      <AboutBlock />
       <Navigation />
     </div>
   );

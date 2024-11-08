@@ -1,9 +1,26 @@
 .nav {
     grid-area: nav;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nav .nav-list__item button {
+    font-family: 'Lora', serif;
+}
+
+.btn {
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 2px;
+}
+
+.btn_active {
+    border-bottom: 2px solid white;
 }
 
 .nav-list {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
-

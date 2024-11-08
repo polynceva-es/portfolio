@@ -44,25 +44,33 @@ export const Navigation = () => {
     setContacts(true);
   };
 
+  const buttonClassName = param => {
+    return `btn ${param ? 'btn_active' : ''}`;
+  };
+
   return (
     <div className="nav">
       <nav>
         <ul className="nav-list">
-          <li>
-            <button onClick={handleHomePageClick}>
+          <li className="nav-list__item">
+            <button
+              className={buttonClassName(homePage)} onClick={handleHomePageClick}>
               {t("NavigationHomePage")}
             </button>
           </li>
-          <li>
-            <button onClick={handleAboutClick}>{t("NavigationAbout")}</button>
+          <li className="nav-list__item">
+            <button
+              className={buttonClassName(about)} onClick={handleAboutClick}>{t("NavigationAbout")}</button>
           </li>
-          <li>
-            <button onClick={handleProjectsClick}>
+          <li className="nav-list__item">
+            <button
+              className={buttonClassName(projects)} onClick={handleProjectsClick}>
               {t("NavigationProjects")}
             </button>
           </li>
-          <li>
-            <button onClick={handleContactsClick}>
+          <li className="nav-list__item">
+            <button
+              className={buttonClassName(contacts)} onClick={handleContactsClick}>
               {t("NavigationConnection")}
             </button>
           </li>

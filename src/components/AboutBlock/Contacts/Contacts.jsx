@@ -21,7 +21,7 @@ export const Contacts = () => {
         <div>
           <p>{t("Email")}</p>
           <Link
-            to="javascript:void(0)"
+            to="#"
             onClick={() => (window.location = `mailto:${contacts.email}`)}
           >
             {contacts.email}
