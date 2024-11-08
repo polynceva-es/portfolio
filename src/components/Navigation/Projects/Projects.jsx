@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import gitHubLogo from "../../../images/github.png";
+import gitHubLogo from "../../../images/github-logo.png";
 import linkLogo from "../../../images/globe.svg";
 import "./Projects.css";
 

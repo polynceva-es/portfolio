@@ -2,9 +2,14 @@
 "LanguageEng": "English",
 "LanguageRu": "Russian",
 
-"MyName": "Ekaterina Polyntseva",
+"MyName": "Ekaterina P.",
 "MyProfession": "Frontend Developer",
 "MyLocation": "Russian, Moscow",
+
+"Email": "E-mail",
+"Telegram": "Telegram",
+"Github": "GitHub",
+"Location": "Location",
 
 "NavigationHomePage": "Homepage",
 "NavigationAbout": "About me",

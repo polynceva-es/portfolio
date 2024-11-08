@@ -2,9 +2,14 @@
 "LanguageEng": "Английский",
 "LanguageRu": "Русский",
 
-"MyName": "Екатерина Полынцева",
+"MyName": "Екатерина П.",
 "MyProfession": "Frontend разработчик",
 "MyLocation": "Россия, Москва",
+
+"Email": "Электронная почта",
+"Telegram": "Телеграм",
+"Github": "ГитХаб",
+"Location": "Местонахождение",
 
 "NavigationHomePage": "Главная",
 "NavigationAbout": "Обо мне",
