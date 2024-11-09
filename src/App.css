@@ -8,11 +8,11 @@
 }
 
 body {
-  /* background-image: url(./images/minh-bach-tr-ng-RZW1Ieq6Jm0-unsplash.webp); */
+  background-image: url(./images/back.jpg);
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-size: cover;
-  background-color: slategrey;
+  background-color: #07091e;
   color: white;
   font-family: 'Lora', serif;
   font-weight: 400;

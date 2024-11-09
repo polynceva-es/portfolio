@@ -98,7 +98,11 @@
     transform: rotate(40deg);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 880px) {
+    .about {
+        border-radius: 10px;
+    }
+
     .about__conteiner button {
         display: block;
     }

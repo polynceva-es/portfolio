@@ -24,6 +24,7 @@
 
 .select option {
     color: black;
+    background: none;
     font-weight: 400;
     font-size: 16px;
 }
@@ -34,6 +35,10 @@ select::-ms-expand {
 }
 
 @media (max-width: 880px) {
+    .select {
+        width: 288px;
+    }
+
     .select_header {
         display: block;
     }
