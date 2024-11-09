@@ -12,26 +12,28 @@ export const Project = (project) => {
       <section className="project__section">
         <h1 className="project__title">{project.project.name}</h1>
         <p className="project__subtitle">{project.project.about}</p>
-        <Link to={project.project.url} target="_blank">
-          <img
-            width="30px"
-            height="30px"
-            src={linkLogo}
-            alt="link to website"
-          />
-        </Link>
-        {project.project.gitHub ? (
-          <Link to={project.project.gitHub} target="_blank">
+        <div>
+          <Link to={project.project.url} target="_blank">
             <img
               width="30px"
               height="30px"
-              src={gitHubLogo}
-              alt="link to gitHub repository"
+              src={linkLogo}
+              alt="link to website"
             />
           </Link>
-        ) : (
-          <></>
-        )}
+          {project.project.gitHub ? (
+            <Link to={project.project.gitHub} target="_blank">
+              <img
+                width="30px"
+                height="30px"
+                src={gitHubLogo}
+                alt="link to gitHub repository"
+              />
+            </Link>
+          ) : (
+            <></>
+          )}
+        </div>
       </section>
     </li>
   );

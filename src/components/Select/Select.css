@@ -1,0 +1,44 @@
+.select {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    background: none;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    appearance: none;
+    width: 170px;
+    background: url('../../images/arrow.png') no-repeat right;
+    background-size: 15%;
+}
+
+.select_nav {
+    display: block;
+}
+
+.select_header {
+    display: none;
+}
+
+.select option {
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* скроет иконку стрелки в IE */
+select::-ms-expand {
+    display: none;
+}
+
+@media (max-width: 880px) {
+    .select_header {
+        display: block;
+    }
+
+    .select_nav {
+        display: none;
+    }
+}

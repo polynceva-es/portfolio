@@ -1,10 +1,11 @@
 import "./Navigation.css";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { Select } from "../Select/Select";
 import { Home } from "./Home/Home";
 import { About } from "./About/About";
 import { Projects } from "./Projects/Projects";
-import { Contacts } from "./Contacts/Contacts";
+// import { Contacts } from "./Contacts/Contacts";
 
 export const Navigation = () => {
   const { t } = useTranslation();
@@ -15,34 +16,34 @@ export const Navigation = () => {
   //Projects
   const [projects, setProjects] = useState(false);
   //Connection
-  const [contacts, setContacts] = useState(false);
+  // const [contacts, setContacts] = useState(false);
 
   const handleHomePageClick = () => {
     setHomePage(true);
     setAbout(false);
     setProjects(false);
-    setContacts(false);
+    // setContacts(false);
   };
   const handleAboutClick = () => {
     setHomePage(false);
     setAbout(true);
     setProjects(false);
-    setContacts(false);
+    // setContacts(false);
   };
 
   const handleProjectsClick = () => {
     setHomePage(false);
     setAbout(false);
     setProjects(true);
-    setContacts(false);
+    // setContacts(false);
   };
 
-  const handleContactsClick = () => {
-    setHomePage(false);
-    setAbout(false);
-    setProjects(false);
-    setContacts(true);
-  };
+  // const handleContactsClick = () => {
+  //   setHomePage(false);
+  //   setAbout(false);
+  //   setProjects(false);
+  //   setContacts(true);
+  // };
 
   const buttonClassName = param => {
     return `btn ${param ? 'btn_active' : ''}`;
@@ -51,6 +52,7 @@ export const Navigation = () => {
   return (
     <div className="nav">
       <nav>
+        <div>
         <ul className="nav-list">
           <li className="nav-list__item">
             <button
@@ -68,20 +70,22 @@ export const Navigation = () => {
               {t("NavigationProjects")}
             </button>
           </li>
-          <li className="nav-list__item">
+          {/* <li className="nav-list__item">
             <button
               className={buttonClassName(contacts)} onClick={handleContactsClick}>
               {t("NavigationConnection")}
             </button>
-          </li>
+          </li> */}
         </ul>
+        <Select site='nav'/>
+        </div>
       </nav>
       {/* content */}
       <section>
         {homePage ? <Home/> : <></>}
         {about ? <About/> : <></>}
         {projects ? <Projects/> : <></>}
-        {contacts ? <Contacts/> : <></>}
+        {/* {contacts ? <Contacts/> : <></>} */}
       </section>
     </div>
   );

@@ -6,11 +6,13 @@
     gap: 20px;
 }
 
-.nav .nav-list__item button {
-    font-family: 'Lora', serif;
+.nav div {
+    display: flex;
+    justify-content: space-between;
 }
 
 .btn {
+    font-family: 'Lora', serif;
     font-size: 24px;
     font-weight: 500;
     padding-top: 2px;
@@ -23,4 +25,13 @@
 .nav-list {
     display: flex;
     gap: 20px;
+}
+
+@media (max-width: 880px) {
+    .nav {
+        align-items: center;
+    }
+    .btn {
+        font-size: 18px;
+    }
 }
