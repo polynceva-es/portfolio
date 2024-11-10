@@ -18,6 +18,10 @@
     padding-top: 2px;
 }
 
+.btn:hover {
+    cursor: pointer;
+}
+
 .btn_active {
     border-bottom: 2px solid white;
 }

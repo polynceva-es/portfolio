@@ -13,12 +13,33 @@
 
 .tech__item {
     box-sizing: border-box;
-    /* padding: 5px; */
+    padding: 5px;
     overflow: hidden;
     border-radius: 10px;
     border: 1px solid lightgray;
-    width: 99px;
-    height: 99px;
+    /* width: 115px;
+    height: 115px; */
+}
+
+.tech__item img {
+    border-radius: 10px;
+}
+
+#Translate {
+    padding: 34px 20px;
+    width: 115px;
+    height: auto;
+}
+
+#PixelPerfect {
+    width: 100px;
+    height: auto; 
+}
+
+#WebSocet {
+    width: 115px;
+    height: auto;
+    padding: 7px 0; 
 }
 
 @media (max-width: 880px) {

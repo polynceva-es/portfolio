@@ -16,8 +16,22 @@
 "NavigationProjects": "Projects",
 "NavigationConnection": "Contacts",
 
+"HomeTitle": "Hello! My name is Ekaterina!",
+"HomeSubtitle": "My goal: enter IT and become a senior frontend developer",
+"HomeText": "I have a long and difficult path ahead, but I am confident that I will overcome everything!",
+"HomeButton": "Let's meet?",
+
 "Technologies": "Technologies",
-"WhatICanDo": "What i can do",
+"AboutMe1": "I strive to actively advance and deepen my knowledge in the field of frontend development.",
+"AboutMe2": "I like to translate creative ideas into reality and create convenient and functional interfaces, and immediately see the results of my work.",
+"AboutMe3": "I ready to learn, develop, find solutions independently and interact with colleagues in the team.",
+"AboutMe4": "I am a React application developer.",
+"AboutMe5": "I am independently improving my development skills in JavaScript and TypeScript, studying NextJs.",
+"AboutMe6": "In 2023, I successfully completed the Yandex Practicum course “Web Developer”.",
+"AboutMe7": "In 2023, I participated from start to finish in the Yandex Praktikum Accelerator project, where the team developed the “Platform for online booking of services of photographers and videographers” application.",
+"AboutMe8": "In 2024, I worked in the “Greeting-card” project.",
+"AboutMe9": "I am currently actively looking for a job or internship.",
+"AboutMe10": "I am purposeful, active, responsible, stress-resistant.",
 
 "GreetingCardTitle": "Greeting Card",
 "GreetingCardAbout": "Application for generating unique greeting cards",

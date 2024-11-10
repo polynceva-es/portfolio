@@ -82,7 +82,7 @@ export const Navigation = () => {
       </nav>
       {/* content */}
       <section>
-        {homePage ? <Home/> : <></>}
+        {homePage ? <Home handleAboutClick={handleAboutClick}/> : <></>}
         {about ? <About/> : <></>}
         {projects ? <Projects/> : <></>}
         {/* {contacts ? <Contacts/> : <></>} */}
